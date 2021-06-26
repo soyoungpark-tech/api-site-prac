@@ -1,22 +1,22 @@
-@charset "utf-8";
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  background: #1e0f21;
+body
+{
+  background:#1e0f21;
 }
-.boardname {
-  position: absolute;
-  z-index: 9;
-  color: white;
-  font-size: 50px;
-  top: 120vh;
-  text-align: center;
-  width: 100%;
+.boardname{
+  
+    position: absolute;
+    z-index: 9;
+    color: white;
+    font-size: 50px;
+    top: 120vh;
+    text-align: center;
+    width: 100%;
 }
 header {
   position: relative;
@@ -37,21 +37,23 @@ header {
   background-repeat: no-repeat;
 }
 
-#header-front {
+#header-front
+{
   top: 25.3125vw;
-  left: calc(52.65% - 65.98958333333333vw / 2);
-  width: 65.98958vw;
-  position: absolute;
-  z-index: 3;
-  height: auto;
+    left: calc(52.65% - 65.98958333333333vw / 2);
+    width: 65.98958vw;
+    position: absolute;
+    z-index: 3;
+    height: auto;
 }
 
-#header-stones {
-  position: absolute;
-  top: 35.08333vw;
-  left: 0;
-  width: 100%;
-  height: auto;
+#header-stones
+{
+      position: absolute;
+    top: 35.08333vw;
+    left: 0;
+    width: 100%;
+    height: auto;
 }
 
 section {
